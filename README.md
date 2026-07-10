@@ -28,7 +28,7 @@ root@vijay:~$ ./boot.sh
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=00FF41&center=true&vCenter=true&width=650&lines=%3E+turning+manuals+into+instant+answers;%3E+RAG+pipelines+%7C+backend+APIs+%7C+computer+vision;%3E+the+tools+change.+curiosity+doesn't.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=00FF41&center=true&vCenter=true&width=650&lines=%3E+building+things+that+scale;%3E+RAG+pipelines+%7C+backend+APIs+%7C+computer+vision;%3E+the+tools+change.+curiosity+doesn't.)](https://git.io/typing-svg)
 
 </div>
 
