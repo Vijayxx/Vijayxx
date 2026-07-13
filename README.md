@@ -65,9 +65,9 @@ root@vijay:~$ sudo ./boot.sh --verbose
 ## `~/whoami $ cat roles.log`
 
 ```diff
-+ AI Engineer Intern @ Tecdia   — RAG system for natural-language manual querying
-+ Ex-SWE Intern @ Globally Gi   — async REST APIs + distributed Celery queues on GCP
-! currently                     — deep in distributed systems & database internals
++ AI Engineer Intern       @ Tecdia         — Apr 2026 – Present
++ Software Engineer Intern @ Globally Gi    — Jan 2026 – Mar 2026
+! currently                                 — deep in distributed systems & DB internals
 ```
 
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
@@ -76,30 +76,31 @@ root@vijay:~$ sudo ./boot.sh --verbose
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=python,java,cpp,c,js,react,pytorch,tensorflow,flask,fastapi,docker,gcp,git,linux,mongodb,postgresql,redis&theme=dark&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,java,cpp,c,js,ts,react,pytorch,tensorflow,flask,fastapi,docker,gcp,git,linux,mongodb,postgresql,redis&theme=dark&perline=9)](https://skillicons.dev)
 
 </div>
 
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
 
-## `~/whoami $ git log --projects`
+## `~/whoami $ cat interests.md`
 
-### `[01]` RAG Manual Assistant — `FastAPI` `ChromaDB` `Llama-3.1`
+### `>` How I think about retrieval
 
-> Natural-language querying over technical manuals. Cuts issue-resolution time ~70%, hallucinations under 5%, p95 latency < 1.2s.
+> A reference architecture I use as my mental model for RAG systems — the general
+> shape most retrieval pipelines converge on, regardless of the specific stack.
 
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0D1117','primaryTextColor':'#00FF41','primaryBorderColor':'#00FF41','lineColor':'#39d353','secondaryColor':'#003B00','tertiaryColor':'#0D1117','fontFamily':'Fira Code'}}}%%
 flowchart LR
-    A["👤 User Query"] --> B["FastAPI<br/>Gateway"]
+    A["👤 Query"] --> B["API<br/>Gateway"]
     B --> C["Embedding<br/>Model"]
-    C --> D[("ChromaDB<br/>Vector Store")]
+    C --> D[("Vector<br/>Store")]
     D -->|"top-k chunks"| E["Context<br/>Builder"]
-    E --> F["Groq<br/>Llama-3.1"]
+    E --> F["LLM"]
     F --> G["✅ Grounded<br/>Answer"]
-    G -.->|"p95 < 1.2s"| A
+    G -.->|"cite sources"| A
 
-    H[/"📄 Manuals<br/>PDF"/] --> I["Chunker +<br/>Embedder"]
+    H[/"📄 Corpus"/] --> I["Chunker +<br/>Embedder"]
     I --> D
 
     style A fill:#0D1117,stroke:#00FF41,color:#00FF41
@@ -108,17 +109,19 @@ flowchart LR
     style G fill:#0D1117,stroke:#39d353,color:#39d353
 ```
 
----
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
 
-### `[02]` [TagVault](https://github.com/Vijayxx/Message-Tagging) — `TypeScript` `Node.js` `MongoDB`
+## `~/whoami $ git log --projects`
 
-> Secure ingestion of 1,000+ WhatsApp messages via HMAC + OTP auth, tag-indexed dashboard with sub-second retrieval.
+### `[01]` [TagVault](https://github.com/Vijayxx/Message-Tagging) — `TypeScript` `Node.js` `MongoDB`
+
+> Secure message ingestion with HMAC + OTP auth, and a tag-indexed dashboard for sub-second retrieval.
 
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0D1117','primaryTextColor':'#00FF41','primaryBorderColor':'#00FF41','lineColor':'#39d353','fontFamily':'Fira Code'}}}%%
 sequenceDiagram
     autonumber
-    participant W as 📱 WhatsApp
+    participant W as 📱 Client
     participant A as 🔐 HMAC Verify
     participant O as 🔑 OTP Auth
     participant S as ⚙️ Express API
@@ -130,7 +133,7 @@ sequenceDiagram
     A-->>W: ❌ reject if tampered
     A->>O: forward verified payload
     O->>S: authorized session
-    S->>S: LLM tag extraction
+    S->>S: tag extraction
     S->>D: store + index by tag
     U->>D: query by tag
     D-->>U: results in < 1s ⚡
@@ -138,7 +141,7 @@ sequenceDiagram
 
 ---
 
-### `[03]` [WhatsApp Calendar Agent](https://github.com/Vijayxx/CalendarAgent) — `Flask` `Twilio` `Gemini`
+### `[02]` [WhatsApp Calendar Agent](https://github.com/Vijayxx/CalendarAgent) — `Flask` `Twilio` `Gemini`
 
 > NLP-driven assistant that parses plain-text messages into calendar events — no manual scheduling.
 
@@ -157,9 +160,9 @@ stateDiagram-v2
 
 ---
 
-### `[04]` [Graphene Layer Detection](https://github.com/MikeRoonane/Graphene-layer-detection) — `Python` `YOLO` `OpenCV`
+### `[03]` [Graphene Layer Detection](https://github.com/MikeRoonane/Graphene-layer-detection) — `Python` `YOLO` `OpenCV`
 
-> YOLO classifier for single vs. multi-layer graphene from microscopy images. ~86% accuracy on a scarce real-world dataset.
+> YOLO classifier for single vs. multi-layer graphene from microscopy images, trained on a scarce real-world dataset.
 
 ```mermaid
 %%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0D1117','primaryTextColor':'#00FF41','primaryBorderColor':'#00FF41','lineColor':'#39d353','fontFamily':'Fira Code'}}}%%
@@ -171,12 +174,11 @@ flowchart TD
     E --> F{"Layer<br/>Count?"}
     F -->|"single"| G["🟢 Monolayer"]
     F -->|"multi"| H["🔵 Multilayer"]
-    G --> I["📊 ~86% acc"]
-    H --> I
 
     style A fill:#0D1117,stroke:#00FF41,color:#00FF41
     style E fill:#003B00,stroke:#00FF41,color:#00FF41
-    style I fill:#0D1117,stroke:#39d353,color:#39d353
+    style G fill:#0D1117,stroke:#39d353,color:#39d353
+    style H fill:#0D1117,stroke:#39d353,color:#39d353
 ```
 
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
