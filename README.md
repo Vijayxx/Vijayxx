@@ -1,26 +1,35 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:003B00,100:00FF41&height=180&section=header&text=VIJAY%20VS&fontSize=60&fontColor=00FF41&fontAlignY=32&animation=fadeIn&desc=%3E%20backend%20%C2%B7%20retrieval%20%C2%B7%20distributed%20systems&descAlignY=55&descSize=16&descColor=39d353" width="100%"/>
+
 ```
-╻ ╻ ╻  ┓ ┏━┓ ╻ ╻   ╻ ╻ ┏━┓
-┃┏┛ ┃  ┃ ┣━┫ ┗┳┛   ┃┏┛ ┗━┓
+╻ ╻ ╻ ┏┓ ┏━┓ ╻ ╻   ╻ ╻ ┏━┓
+┃┏┛ ┃ ┃┃ ┣━┫ ┗┳┛   ┃┏┛ ┗━┓
 ┗┛  ╹ ┗┛ ╹ ╹  ╹    ┗┛  ┗━┛
 ```
+
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="4"/>
 
 </div>
 
 <div align="center">
 
 ```bash
-root@vijay:~$ ./boot.sh
+root@vijay:~$ sudo ./boot.sh --verbose
+
+[ OK ]  wake up, neo ......................... done
 [ OK ]  loading identity module .............. done
-[ OK ]  mounting /dev/curiosity ............... done
+[ OK ]  mounting /dev/curiosity .............. done
 [ OK ]  starting backend daemons ............. done
 [ OK ]  spawning retrieval pipeline .......... done
+[ OK ]  injecting caffeine into bloodstream .. done
+[WARN]  sleep schedule ...................... not found
 
 > user      : Vijay
 > role      : AI Engineer Intern @ Tecdia
 > stack     : backend · retrieval · distributed systems
 > uptime    : always shipping, occasionally sleeping
+> matrix    : there is no spoon. only edge cases.
 > _
 ```
 
@@ -29,6 +38,12 @@ root@vijay:~$ ./boot.sh
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=00FF41&center=true&vCenter=true&width=650&lines=%3E+building+things+that+scale;%3E+RAG+pipelines+%7C+backend+APIs+%7C+computer+vision;%3E+the+tools+change.+curiosity+doesn't.)](https://git.io/typing-svg)
+
+<br>
+
+[![Resume](https://img.shields.io/badge/%F0%9F%93%84_RESUME-0D1117?style=for-the-badge&labelColor=000000&color=00FF41)](https://drive.google.com/file/d/1cTLbskZDVTtZIVK_c6CGWRfneKLqH_Je/view?usp=drive_link)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41&labelColor=000000)](https://linkedin.com/in/vijay-vs-103389271)
+[![Email](https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41&labelColor=000000)](mailto:vijay080504@gmail.com)
 
 </div>
 
@@ -45,11 +60,9 @@ root@vijay:~$ ./boot.sh
 
 </div>
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
 
-### `~/whoami $ cat roles.log`
+## `~/whoami $ cat roles.log`
 
 ```diff
 + AI Engineer Intern @ Tecdia   — RAG system for natural-language manual querying
@@ -57,50 +70,118 @@ root@vijay:~$ ./boot.sh
 ! currently                     — deep in distributed systems & database internals
 ```
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
 
-### `~/whoami $ ls -la stack/`
+## `~/whoami $ ls -la stack/`
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=python,java,cpp,c,js,react,pytorch,tensorflow,flask,fastapi,docker,gcp,git,linux,mongodb,postgresql&theme=dark&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,java,cpp,c,js,react,pytorch,tensorflow,flask,fastapi,docker,gcp,git,linux,mongodb,postgresql,redis&theme=dark&perline=8)](https://skillicons.dev)
 
 </div>
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
 
-### `~/whoami $ git log --projects`
+## `~/whoami $ git log --projects`
 
-```yaml
-- name: RAG Manual Assistant
-  stack: [FastAPI, ChromaDB, Llama-3.1-70B]
-  impact: "-70% resolution time · <5% hallucination · p95 < 1.2s"
+### `[01]` RAG Manual Assistant — `FastAPI` `ChromaDB` `Llama-3.1`
 
-- name: TagVault
-  url: github.com/Vijayxx/Message-Tagging
-  stack: [TypeScript, Node.js, MongoDB]
-  impact: "1,000+ msgs via HMAC + OTP auth · <1s tag retrieval"
+> Natural-language querying over technical manuals. Cuts issue-resolution time ~70%, hallucinations under 5%, p95 latency < 1.2s.
 
-- name: WhatsApp Calendar Agent
-  url: github.com/Vijayxx/CalendarAgent
-  stack: [Flask, Twilio, Gemini API]
-  impact: "NLP assistant syncing events to Google Calendar"
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0D1117','primaryTextColor':'#00FF41','primaryBorderColor':'#00FF41','lineColor':'#39d353','secondaryColor':'#003B00','tertiaryColor':'#0D1117','fontFamily':'Fira Code'}}}%%
+flowchart LR
+    A["👤 User Query"] --> B["FastAPI<br/>Gateway"]
+    B --> C["Embedding<br/>Model"]
+    C --> D[("ChromaDB<br/>Vector Store")]
+    D -->|"top-k chunks"| E["Context<br/>Builder"]
+    E --> F["Groq<br/>Llama-3.1"]
+    F --> G["✅ Grounded<br/>Answer"]
+    G -.->|"p95 < 1.2s"| A
 
-- name: Graphene Layer Detection
-  url: github.com/MikeRoonane/Graphene-layer-detection
-  stack: [Python, YOLO, OpenCV]
-  impact: "~86% accuracy on single vs. multi-layer microscopy"
-```
+    H[/"📄 Manuals<br/>PDF"/] --> I["Chunker +<br/>Embedder"]
+    I --> D
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    style A fill:#0D1117,stroke:#00FF41,color:#00FF41
+    style D fill:#003B00,stroke:#00FF41,color:#00FF41
+    style F fill:#003B00,stroke:#00FF41,color:#00FF41
+    style G fill:#0D1117,stroke:#39d353,color:#39d353
 ```
 
-### `~/whoami $ ./run_snake.sh   # eating the contribution grid`
+---
+
+### `[02]` [TagVault](https://github.com/Vijayxx/Message-Tagging) — `TypeScript` `Node.js` `MongoDB`
+
+> Secure ingestion of 1,000+ WhatsApp messages via HMAC + OTP auth, tag-indexed dashboard with sub-second retrieval.
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0D1117','primaryTextColor':'#00FF41','primaryBorderColor':'#00FF41','lineColor':'#39d353','fontFamily':'Fira Code'}}}%%
+sequenceDiagram
+    autonumber
+    participant W as 📱 WhatsApp
+    participant A as 🔐 HMAC Verify
+    participant O as 🔑 OTP Auth
+    participant S as ⚙️ Express API
+    participant D as 🗄️ MongoDB
+    participant U as 📊 Dashboard
+
+    W->>A: inbound message + signature
+    A->>A: validate HMAC digest
+    A-->>W: ❌ reject if tampered
+    A->>O: forward verified payload
+    O->>S: authorized session
+    S->>S: LLM tag extraction
+    S->>D: store + index by tag
+    U->>D: query by tag
+    D-->>U: results in < 1s ⚡
+```
+
+---
+
+### `[03]` [WhatsApp Calendar Agent](https://github.com/Vijayxx/CalendarAgent) — `Flask` `Twilio` `Gemini`
+
+> NLP-driven assistant that parses plain-text messages into calendar events — no manual scheduling.
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0D1117','primaryTextColor':'#00FF41','primaryBorderColor':'#00FF41','lineColor':'#39d353','fontFamily':'Fira Code'}}}%%
+stateDiagram-v2
+    [*] --> Received: 💬 "lunch w/ sam friday 1pm"
+    Received --> Parsing: Twilio webhook → Flask
+    Parsing --> Extracted: Gemini NLP
+    Extracted --> Validating: {title, time, attendees}
+    Validating --> Clarify: ⚠️ ambiguous date
+    Clarify --> Parsing: user replies
+    Validating --> Scheduled: ✅ Google Calendar API
+    Scheduled --> [*]: 📅 event created
+```
+
+---
+
+### `[04]` [Graphene Layer Detection](https://github.com/MikeRoonane/Graphene-layer-detection) — `Python` `YOLO` `OpenCV`
+
+> YOLO classifier for single vs. multi-layer graphene from microscopy images. ~86% accuracy on a scarce real-world dataset.
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0D1117','primaryTextColor':'#00FF41','primaryBorderColor':'#00FF41','lineColor':'#39d353','fontFamily':'Fira Code'}}}%%
+flowchart TD
+    A["🔬 Microscopy<br/>Image"] --> B["OpenCV<br/>Preprocess"]
+    B --> C["Contrast +<br/>Denoise"]
+    C --> D["Augmentation<br/>scarce dataset"]
+    D --> E["YOLO<br/>Detector"]
+    E --> F{"Layer<br/>Count?"}
+    F -->|"single"| G["🟢 Monolayer"]
+    F -->|"multi"| H["🔵 Multilayer"]
+    G --> I["📊 ~86% acc"]
+    H --> I
+
+    style A fill:#0D1117,stroke:#00FF41,color:#00FF41
+    style E fill:#003B00,stroke:#00FF41,color:#00FF41
+    style I fill:#0D1117,stroke:#39d353,color:#39d353
+```
+
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
+
+## `~/whoami $ ./run_snake.sh   # eating the contribution grid`
 
 <div align="center">
 <picture>
@@ -110,38 +191,46 @@ root@vijay:~$ ./boot.sh
 </picture>
 </div>
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
 
-### `~/whoami $ top -stats`
+## `~/whoami $ top -stats`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Vijayxx&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41" width="49%">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vijayxx&theme=highcontrast&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" width="49%">
+<img src="https://github-readme-stats.vercel.app/api?username=Vijayxx&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=39d353&border_radius=8" width="49%">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vijayxx&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=39d353&currStreakLabel=00FF41&sideLabels=39d353&dates=39d353&sideNums=00FF41&currStreakNum=00FF41&border_radius=8" width="49%">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vijayxx&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=39d353&border_radius=8" width="45%">
+
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Vijayxx&theme=matrix&no-frame=true&no-bg=true&row=1&column=7&margin-w=6" width="95%">
 
 </div>
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
 
-### `~/whoami $ ping --connect`
+## `~/whoami $ ping --connect`
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com/in/vijay-vs-103389271)
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:vijay080504@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/Vijayxx)
-![Profile Views](https://komarev.com/ghpvc/?username=Vijayxx&color=00FF41&style=for-the-badge&label=CONNECTIONS)
+[![Resume](https://img.shields.io/badge/%F0%9F%93%84_RESUME-0D1117?style=for-the-badge&labelColor=000000&color=00FF41)](https://drive.google.com/file/d/1cTLbskZDVTtZIVK_c6CGWRfneKLqH_Je/view?usp=drive_link)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41&labelColor=000000)](https://linkedin.com/in/vijay-vs-103389271)
+[![Email](https://img.shields.io/badge/EMAIL-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41&labelColor=000000)](mailto:vijay080504@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-0D1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=000000)](https://github.com/Vijayxx)
+
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Vijayxx&color=00FF41&style=for-the-badge&label=JACKED+IN)
 
 </div>
 
 <div align="center">
 
 ```
-[ session closed ] — thanks for stopping by. keep building. > _
+[ session closed ] — follow the white rabbit. keep building. > _
 ```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF41,50:003B00,100:000000&height=120&section=footer" width="100%"/>
 
 </div>
