@@ -160,26 +160,7 @@ stateDiagram-v2
 
 ---
 
-### `[03]` [Graphene Layer Detection](https://github.com/MikeRoonane/Graphene-layer-detection) — `Python` `YOLO` `OpenCV`
 
-> YOLO classifier for single vs. multi-layer graphene from microscopy images, trained on a scarce real-world dataset.
-
-```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0D1117','primaryTextColor':'#00FF41','primaryBorderColor':'#00FF41','lineColor':'#39d353','fontFamily':'Fira Code'}}}%%
-flowchart TD
-    A["🔬 Microscopy<br/>Image"] --> B["OpenCV<br/>Preprocess"]
-    B --> C["Contrast +<br/>Denoise"]
-    C --> D["Augmentation<br/>scarce dataset"]
-    D --> E["YOLO<br/>Detector"]
-    E --> F{"Layer<br/>Count?"}
-    F -->|"single"| G["🟢 Monolayer"]
-    F -->|"multi"| H["🔵 Multilayer"]
-
-    style A fill:#0D1117,stroke:#00FF41,color:#00FF41
-    style E fill:#003B00,stroke:#00FF41,color:#00FF41
-    style G fill:#0D1117,stroke:#39d353,color:#39d353
-    style H fill:#0D1117,stroke:#39d353,color:#39d353
-```
 
 <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/Matrix.gif" width="100%" height="3"/>
 
